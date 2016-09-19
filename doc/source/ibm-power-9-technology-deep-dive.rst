@@ -1,3 +1,4 @@
+========================================
 IBM POWER9 Technology Advanced Deep Dive
 ========================================
 
@@ -76,3 +77,12 @@ IBM POWER9 Technology Advanced Deep Dive
 
   * Accelerator has a Power Service Layer (PSL) to reduce latency in
     communicating with the POWER9 chip
+  * Optimized CAP protocal to talk to accelerators
+  * PSL is moved to POWER9 die rather than accelerator -- reduces latency
+
+* 192GB/s duplex bandwidth on PCIe Gen 4 (48 lanes)
+
+  * Should see some adapters coming for Gen4 soon -- especially InfiniBand
+    adapters
+
+* 300GB/s duplex bandwidth for Common Link (25Gbit/sec x 48 lanes)

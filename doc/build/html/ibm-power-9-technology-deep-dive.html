@@ -79,6 +79,54 @@ and Enterprise</li>
 </ul>
 </li>
 <li>Latency is greatly reduced between cores</li>
+<li>Efficient cores deliver 2x compute resources per socket</li>
+<li>Hardware-assisted garbage collection</li>
+<li>New interrupt architecture<ul>
+<li>Automated partition routing for extreme virtualization</li>
+<li>Could be helpful for busy clouds</li>
+</ul>
+</li>
+<li>Workload optimized frequency<ul>
+<li>Manage energy between threads/cores with reduces wakeup latency</li>
+</ul>
+</li>
+<li>Optical-style signaling technology delivers 25Gbit/sec<ul>
+<li>Multi-drawer SMP connection</li>
+<li>NVLINK 2 GPU accelerator attach</li>
+<li>New CAPI accelerator attach</li>
+</ul>
+</li>
+<li>New interrupt architecture<ul>
+<li>Today: Interrupt arrives, interrupt controller can&#8217;t find the partition
+where the interrupt is located</li>
+<li>POWER9: Hardware accelerated interrupts come through with a partition ID
+attached to it, then broadcast goes out to find out if the partition is
+executing something</li>
+<li>Helps a lot with densely loaded hypervisor</li>
+</ul>
+</li>
+<li>Accelerators<ul>
+<li>Fewer hypervisor calls, user mode virtualization management</li>
+<li>GZIP accelerator for compression/decompression (on the CPU die, no
+overhead for GZIP compression/decompression)</li>
+<li>AES cryptography support</li>
+<li>True random number generation</li>
+<li>Data mover</li>
+</ul>
+</li>
+<li>New CAPI<ul>
+<li>Accelerator has a Power Service Layer (PSL) to reduce latency in
+communicating with the POWER9 chip</li>
+<li>Optimized CAP protocal to talk to accelerators</li>
+<li>PSL is moved to POWER9 die rather than accelerator &#8211; reduces latency</li>
+</ul>
+</li>
+<li>192GB/s duplex bandwidth on PCIe Gen 4 (48 lanes)<ul>
+<li>Should see some adapters coming for Gen4 soon &#8211; especially InfiniBand
+adapters</li>
+</ul>
+</li>
+<li>300GB/s duplex bandwidth for Common Link (25Gbit/sec x 48 lanes)</li>
 </ul>
 </div>
 

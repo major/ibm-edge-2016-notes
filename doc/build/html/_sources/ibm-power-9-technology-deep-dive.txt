@@ -1,5 +1,5 @@
 IBM POWER9 Technology Advanced Deep Dive
-----------------------------------------
+========================================
 
 *Speaker: Jeff Stuecheli*
 
@@ -37,3 +37,51 @@ IBM POWER9 Technology Advanced Deep Dive
     * Buffered memory attached
 
 * Latency is greatly reduced between cores
+* Efficient cores deliver 2x compute resources per socket
+* Hardware-assisted garbage collection
+* New interrupt architecture
+
+  * Automated partition routing for extreme virtualization
+  * Could be helpful for busy clouds
+
+* Workload optimized frequency
+
+  * Manage energy between threads/cores with reduces wakeup latency
+
+* Optical-style signaling technology delivers 25Gbit/sec
+
+  * Multi-drawer SMP connection
+  * NVLINK 2 GPU accelerator attach
+  * New CAPI accelerator attach
+
+* New interrupt architecture
+
+  * Today: Interrupt arrives, interrupt controller can't find the partition
+    where the interrupt is located
+  * POWER9: Hardware accelerated interrupts come through with a partition ID
+    attached to it, then broadcast goes out to find out if the partition is
+    executing something
+  * Helps a lot with densely loaded hypervisor
+
+* Accelerators
+
+  * Fewer hypervisor calls, user mode virtualization management
+  * GZIP accelerator for compression/decompression (on the CPU die, no
+    overhead for GZIP compression/decompression)
+  * AES cryptography support
+  * True random number generation
+  * Data mover
+
+* New CAPI
+
+  * Accelerator has a Power Service Layer (PSL) to reduce latency in
+    communicating with the POWER9 chip
+  * Optimized CAP protocal to talk to accelerators
+  * PSL is moved to POWER9 die rather than accelerator -- reduces latency
+
+* 192GB/s duplex bandwidth on PCIe Gen 4 (48 lanes)
+
+  * Should see some adapters coming for Gen4 soon -- especially InfiniBand
+    adapters
+
+* 300GB/s duplex bandwidth for Common Link (25Gbit/sec x 48 lanes)
