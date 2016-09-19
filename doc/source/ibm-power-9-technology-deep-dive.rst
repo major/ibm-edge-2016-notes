@@ -1,5 +1,5 @@
 IBM POWER9 Technology Advanced Deep Dive
-----------------------------------------
+========================================
 
 *Speaker: Jeff Stuecheli*
 
@@ -38,3 +38,8 @@ IBM POWER9 Technology Advanced Deep Dive
 
 * Latency is greatly reduced between cores
 * Efficient cores deliver 2x compute resources per socket
+* Hardware-assisted garbage collection
+* New interrupt architecture
+
+  * Automated partition routing for extreme virtualization
+  * Could be helpful for busy clouds
