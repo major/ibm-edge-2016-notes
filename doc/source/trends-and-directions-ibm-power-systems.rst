@@ -1,15 +1,3 @@
-===================
-IBM Edge 2016 Notes
-===================
-
-These are notes from the IBM Edge 2016 conference. There are probably errors
-and omissions here. ;)
-
-*Licensed CC-BY-SA.*
-
-Monday, September 19th
-======================
-
 Trends and Directions -- IBM Power Systems
 ------------------------------------------
 
