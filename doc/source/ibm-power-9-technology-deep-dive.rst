@@ -47,3 +47,32 @@ IBM POWER9 Technology Advanced Deep Dive
 * Workload optimized frequency
 
   * Manage energy between threads/cores with reduces wakeup latency
+
+* Optical-style signaling technology delivers 25Gbit/sec
+
+  * Multi-drawer SMP connection
+  * NVLINK 2 GPU accelerator attach
+  * New CAPI accelerator attach
+
+* New interrupt architecture
+
+  * Today: Interrupt arrives, interrupt controller can't find the partition
+    where the interrupt is located
+  * POWER9: Hardware accelerated interrupts come through with a partition ID
+    attached to it, then broadcast goes out to find out if the partition is
+    executing something
+  * Helps a lot with densely loaded hypervisor
+
+* Accelerators
+
+  * Fewer hypervisor calls, user mode virtualization management
+  * GZIP accelerator for compression/decompression (on the CPU die, no
+    overhead for GZIP compression/decompression)
+  * AES cryptography support
+  * True random number generation
+  * Data mover
+
+* New CAPI
+
+  * Accelerator has a Power Service Layer (PSL) to reduce latency in
+    communicating with the POWER9 chip
