@@ -15,8 +15,6 @@ License: `Creative Commons CC-BY-SA license <https://creativecommons.org/license
 Monday, September 19th
 ======================
 
-Contents:
-
 .. toctree::
 
    trends-and-directions-ibm-power-systems
