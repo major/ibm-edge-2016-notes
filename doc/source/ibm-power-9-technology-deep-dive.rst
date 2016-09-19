@@ -37,3 +37,4 @@ IBM POWER9 Technology Advanced Deep Dive
     * Buffered memory attached
 
 * Latency is greatly reduced between cores
+* Efficient cores deliver 2x compute resources per socket
