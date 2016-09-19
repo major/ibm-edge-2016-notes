@@ -43,3 +43,7 @@ IBM POWER9 Technology Advanced Deep Dive
 
   * Automated partition routing for extreme virtualization
   * Could be helpful for busy clouds
+
+* Workload optimized frequency
+
+  * Manage energy between threads/cores with reduces wakeup latency

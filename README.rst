@@ -2,7 +2,7 @@
 Notes from IBM Edge 2016
 ========================
 
-Go straight to the notes: `IBM Edge 2016 Notes <ibm_edge_notes_2016.rst>`_
+Go straight to the notes: `IBM Edge 2016 Notes <http://ibm-edge-2016-notes.readthedocs.io/>`_
 
 This repository contains my notes from IBM Edge 2016.  Beware -- there may
 be errors or things left out.  I can only type so quickly. :)

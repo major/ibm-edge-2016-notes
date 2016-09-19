@@ -2,12 +2,12 @@
 IBM Edge 2016 Notes
 ===================
 
-These are notes from the IBM Edge 2016 conference. There are probably errors
-and omissions here. ;)
+These are notes from the IBM Edge 2016 conference.
 
-*Enjoy! -- Major*
+There are probably errors and omissions here. I can only type so fast, and
+there are certain things that are more interesting to me than others.
 
-*Licensed CC-BY-SA.*
+License: `Creative Commons CC-BY-SA license <https://creativecommons.org/licenses/by-sa/2.0/>`_
 
 Monday, September 19th
 ======================
