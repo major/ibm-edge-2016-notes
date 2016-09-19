@@ -120,5 +120,35 @@ Trends and Directions -- IBM Power Systems
 
 *Greg from Mirantis on stage*
 
-  * Mirantis/IBM working on an architecture to bring POWER 8 compute nodes into
-    private clouds
+* Mirantis/IBM working on an architecture to bring POWER 8 compute nodes into
+  private clouds
+
+*Jeff Stuecheli from IBM on stage to talk architecture*
+
+* Yesterday's datacenter designs
+
+  * High performance POWER mission critical stuff
+  * Sprawl of under-utilized servers
+  * Made clouds of commodity servers
+  * Public clouds made of mostly commodity infrastructure (driven by
+    faster/cheaper servers)
+  * More reliance on software to drive performance, not hardware
+
+    * Leads to Moore's Law problems
+    * Software scaling issues
+
+* Disruptive forces
+
+  * POWER8 is 14nm, but 7nm is possible
+  * Intel says 4nm is exotic technology
+
+* We used to have faster processors consuming less power each time
+* Costs more and more money to get smaller and smaller (billions of dollars to
+  build a new fab)
+* Cross-correlation of data drives the need for faster processors
+* Programmatic vs Cognitive
+
+  * Programmatic -- you tell the computer what to do
+  * Cognitive -- you teach the computer rather than programming it
+
+* Workload optimized systems help us survive the end of Moore's Law
