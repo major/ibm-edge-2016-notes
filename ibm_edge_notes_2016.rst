@@ -103,12 +103,12 @@ Trends and Directions -- IBM Power Systems
 
 * Days of Moore's law has come to an end
 
-   * Can't just shrink transistors over and over again
-   * Can't keeping making them more dense on the chip
-   * Performance must come from new areas
-   * Requires bringing multiple companies together to innovate on performance
-   * 2,500 Linux ISV's developing on POWER
-   * 100K open source packages
+  * Can't just shrink transistors over and over again
+  * Can't keeping making them more dense on the chip
+  * Performance must come from new areas
+  * Requires bringing multiple companies together to innovate on performance
+  * 2,500 Linux ISV's developing on POWER
+  * 100K open source packages
 
 * New announcements
 
