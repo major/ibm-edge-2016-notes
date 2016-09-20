@@ -19,3 +19,4 @@ Monday, September 19th
 
    trends-and-directions-ibm-power-systems
    ibm-power-9-technology-deep-dive
+   openpower-revolution-in-the-datacenter
