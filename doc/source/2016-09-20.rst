@@ -5,3 +5,4 @@ Tuesday, September 20th
 .. toctree::
 
    getting-started-with-linux-performance-on-ibm-power8
+   bringing-the-deep-learning-revolution-into-the-enterprise
