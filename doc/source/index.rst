@@ -12,11 +12,6 @@ sessions are already recorded.
 
 License: `Creative Commons CC-BY-SA license <https://creativecommons.org/licenses/by-sa/2.0/>`_
 
-Monday, September 19th
-======================
-
 .. toctree::
 
-   trends-and-directions-ibm-power-systems
-   ibm-power-9-technology-deep-dive
-   openpower-revolution-in-the-datacenter
+   2016-09-19
