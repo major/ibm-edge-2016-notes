@@ -62,3 +62,4 @@ Getting Started with Linux Performance on IBM POWER8
     to each CPU and adjust threads
   * In POWER7, optimizing affinity could save ~ 35% performance
   * In POWER8, it's more like 10% (since POWER8 has more bandwidth)
+
